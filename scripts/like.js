@@ -2,7 +2,6 @@ const popup = document.getElementById("popup-id");
 const openButton = document.querySelector(".button__popup-open");
 const closeButton = document.querySelector(".button__popup-close");
 
-// Открытие попапа
 if (openButton) {
   openButton.addEventListener("click", (event) => {
     event.preventDefault();
@@ -11,7 +10,6 @@ if (openButton) {
   });
 }
 
-// Закрытие попапа
 if (closeButton) {
   closeButton.addEventListener("click", (event) => {
     event.preventDefault();
@@ -20,7 +18,6 @@ if (closeButton) {
   });
 }
 
-// Полная защита от submit
 document.addEventListener("submit", (event) => {
   event.preventDefault();
 });
