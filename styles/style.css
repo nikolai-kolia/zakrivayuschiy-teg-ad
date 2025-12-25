@@ -8,10 +8,6 @@
   font-variation-settings: "wght" var(--font-weight-regular)
 
 
-.header {
-  display: flex;
-  justify-content: center
-}
 
 .header__wrapper {
   margin: 100px 0;
